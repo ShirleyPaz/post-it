@@ -6,9 +6,9 @@
 .note {
     font-family: 'Roboto', sans-serif;
     line-height: 18px;
-    width: 100%;
+    height: 135px;
     padding: .5rem;
-    margin: 0 0 1rem;
+    margin: 0 1rem 1rem 1rem;
     border-radius: 2px;
     background: rgb(255, 246, 141);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
@@ -52,7 +52,7 @@
 
 .notes {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
